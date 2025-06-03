@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "password",
+    "password": "nilonuj7",
     "database": "inventory_management",
     "host": "localhost",
     "dialect": "mysql"

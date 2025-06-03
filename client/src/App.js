@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import ProductDetails from './Pages/ProductDetails';
 import Products from './Pages/Products';
+import AIQuery from './Pages/AIquery';
 
 // Landing Page Component
 function LandingPage() {
@@ -85,6 +85,10 @@ function App() {
               <span className="nav-icon">+</span>
               Create Product
             </Link>
+            <Link to='/aiquery' className="nav-link">
+              <span className="nav-icon">📦</span>
+              Ask Query
+            </Link>
             <Link to='/products' className="nav-link">
               <span className="nav-icon">📦</span>
               Products
@@ -97,6 +101,8 @@ function App() {
             <Route path='/' element={<LandingPage/>}/>
             <Route path='/create' element={<ProductDetails/>}/>
             <Route path='/products' element={<Products/>}/>
+            <Route path='/aiquery' element={<AIQuery/>}/>
+
           </Routes>
         </main>
       </Router>
