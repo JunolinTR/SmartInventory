@@ -1,4 +1,4 @@
-# SmartInventory – Inventory Management System
+# SmartInventory – AI-Driven Inventory Management System
 
 SmartInventory is a **full-stack inventory management system** built with **React, Express.js, Sequelize, and MySQL**.  
 It supports **CRUD operations** for inventory management and allows users to query the database using **natural language**, which is converted to SQL queries via **Gemma LLM**.
