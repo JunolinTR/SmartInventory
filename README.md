@@ -1,4 +1,3 @@
-````markdown
 # SmartInventory – Inventory Management System
 
 SmartInventory is a **full-stack inventory management system** built with **React, Express.js, Sequelize, and MySQL**.  
